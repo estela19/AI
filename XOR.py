@@ -28,4 +28,3 @@ for i in range (epoch):
 	if i % 100 == 0:
 		parameter_list = list(func.parameters())
 		print('Epoch %d : Loss %.5f' %(i, loss))
-		#print('w : %.5f, b : %.5f\n' %(parameter_list[0], parameter_list[1]))
